@@ -57,3 +57,4 @@ python3 -m http.server 8000
    ```
 3. On GitHub: **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main`, folder `/ (root)` → Save**.
 4. After a minute the site is live at `https://<your-username>.github.io/gdcw-bapatla/`.
+# gdcw-bapatla
