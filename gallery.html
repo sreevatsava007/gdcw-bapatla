@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery | Government Degree College for Women, Bapatla</title>
+  <meta name="description" content="Photo gallery of Government Degree College for Women, Bapatla.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&family=Noto+Sans+Telugu:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER (same on every page) ============ -->
+  <header>
+    <div class="topbar">
+      <div class="container">
+        <div class="brand-badge" aria-hidden="true">GDCW</div>
+        <div class="brand-text">
+          <p class="brand-name">Government Degree College for Women, Bapatla</p>
+          <p class="brand-telugu" lang="te">ప్రభుత్వ బాలికల జూనియర్ కళాశాల</p>
+          <p class="brand-meta">Bapatla, Andhra Pradesh &middot; Est. 1972</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero compact">
+      <img src="assets/img/header.jpg" alt="College building with the Telugu name board" width="1584" height="446">
+    </div>
+  </header>
+
+  <nav class="nav" aria-label="Main">
+    <div class="container">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">&#9776; Menu</button>
+      <ul id="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main">
+    <div class="page-title">
+      <div class="container">
+        <h1>Gallery</h1>
+        <p>Glimpses of campus life, events and celebrations</p>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <!--
+          HOW TO ADD A PHOTO:
+          1. Copy the photo into assets/img/gallery/  (e.g. annual-day.jpg)
+          2. Copy one <figure> block below and change the file name and caption
+             in all three places (data-lightbox, src, data-caption / figcaption).
+        -->
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <button type="button" data-lightbox="assets/img/header.jpg" data-caption="College main building">
+              <img src="assets/img/header.jpg" alt="College main building" loading="lazy">
+            </button>
+            <figcaption>College main building</figcaption>
+          </figure>
+
+          <!-- TODO: placeholders, replace with real photos -->
+          <figure class="gallery-item"><div class="gallery-placeholder">Photo coming soon</div><figcaption>Independence Day celebrations</figcaption></figure>
+          <figure class="gallery-item"><div class="gallery-placeholder">Photo coming soon</div><figcaption>Annual Day</figcaption></figure>
+          <figure class="gallery-item"><div class="gallery-placeholder">Photo coming soon</div><figcaption>Science laboratory</figcaption></figure>
+          <figure class="gallery-item"><div class="gallery-placeholder">Photo coming soon</div><figcaption>Library</figcaption></figure>
+          <figure class="gallery-item"><div class="gallery-placeholder">Photo coming soon</div><figcaption>Sports meet</figcaption></figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+    <button class="lightbox-close" type="button" aria-label="Close">&times;</button>
+    <img src="" alt="">
+    <p></p>
+  </div>
+
+  <!-- ============ FOOTER (same on every page) ============ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Government Degree College for Women</h3>
+        <p>Bapatla, Bapatla District,<br>Andhra Pradesh, India<!-- TODO: full address with PIN --></p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li>Phone: <!-- TODO -->To be updated</li>
+          <li>Email: <!-- TODO -->To be updated</li>
+          <li><a href="https://maps.google.com/maps?sca_esv=f26905183a218c10&amp;udm&amp;fvr=1&amp;pvq=Cg0vZy8xMWdqd19tem5qIiQKHndvbWVucyBqdW5pb3IgZGVncmVlICAgY29sbGVnZRACGAOJAT4sVMPAkPo9&amp;lqi=CiZiYXBhdGxhIHdvbWVucyBqdW5pb3IgZGVncmVlDQogY29sbGVnZUiQ9ee_w66AgAhaNhABEAIQAxAEGAAYARgDGAQiJGJhcGF0bGEgd29tZW5zIGp1bmlvciBkZWdyZWUgY29sbGVnZZIBDndvbWVuc19jb2xsZWdl&amp;vet=10CAAQoqAOahcKEwjw14PVpJiYAxUAAAAAHQAAAAAQGw..i&amp;cs=0&amp;um=1&amp;ie=UTF-8&amp;fb=1&amp;gl=in&amp;sa=X&amp;ftid=0x3a4a3ff126b1dbd1:0x3dfa90c0c3542c3e" target="_blank" rel="noopener">View on Google Maps</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span id="year">2026</span> Government Degree College for Women, Bapatla. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

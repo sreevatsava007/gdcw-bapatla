@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Government Degree College for Women, Bapatla</title>
+  <meta name="description" content="Official website of Government Degree College for Women, Bapatla, Andhra Pradesh. Latest circulars, notices, admissions and contact information.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&family=Noto+Sans+Telugu:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER (same on every page) ============ -->
+  <header>
+    <div class="topbar">
+      <div class="container">
+        <div class="brand-badge" aria-hidden="true">GDCW</div>
+        <div class="brand-text">
+          <p class="brand-name">Government Degree College for Women, Bapatla</p>
+          <p class="brand-telugu" lang="te">ప్రభుత్వ బాలికల జూనియర్ కళాశాల</p>
+          <p class="brand-meta">Bapatla, Andhra Pradesh &middot; Est. 1972</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero">
+      <img src="assets/img/header.jpg" alt="College building with the Telugu name board" width="1584" height="446">
+    </div>
+  </header>
+
+  <nav class="nav" aria-label="Main">
+    <div class="container">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">&#9776; Menu</button>
+      <ul id="nav-menu">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============ SCROLLING LATEST UPDATES ============ -->
+  <div class="ticker" role="region" aria-label="Latest updates">
+    <div class="ticker-label">LATEST</div>
+    <div class="ticker-viewport">
+      <div class="ticker-track" id="ticker-track"></div>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- Welcome + Notice board -->
+    <section class="section">
+      <div class="container home-grid">
+        <div class="welcome">
+          <h1 class="section-title">Welcome</h1>
+          <!-- TODO: replace with the college's own introduction -->
+          <p>
+            Government Degree College for Women, Bapatla has been serving the
+            educational needs of girl students of Bapatla and the surrounding
+            villages since 1972. The college is committed to providing quality,
+            affordable education in a safe and supportive environment.
+          </p>
+          <p>
+            Our experienced faculty, well-equipped laboratories and library, and
+            an active programme of sports, cultural and service activities help
+            every student grow in knowledge, confidence and character.
+          </p>
+
+          <div class="stats">
+            <div class="stat"><strong>1972</strong><span>Established</span></div>
+            <!-- TODO: update with real numbers -->
+            <div class="stat"><strong>—</strong><span>Students</span></div>
+            <div class="stat"><strong>—</strong><span>Faculty</span></div>
+          </div>
+
+          <a class="btn" href="about.html">Read more about us</a>
+        </div>
+
+        <aside class="card notice-board" aria-labelledby="nb-title">
+          <div class="notice-head">
+            <h2 id="nb-title">Notice Board</h2>
+            <small>Hover to pause</small>
+          </div>
+          <div class="notice-viewport">
+            <ul class="notice-list" id="notice-list"></ul>
+          </div>
+          <div class="notice-foot"><a href="#circulars">View all circulars &rarr;</a></div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Quick links -->
+    <section class="section alt">
+      <div class="container">
+        <h2 class="section-title">Quick Links</h2>
+        <div class="quick-grid">
+          <!-- TODO: point these to real pages / documents when available -->
+          <a class="card quick-card" href="#circulars">
+            <div class="quick-icon" aria-hidden="true">📝</div>
+            <h3>Admissions</h3>
+            <p>Admission notifications and procedure</p>
+          </a>
+          <a class="card quick-card" href="#circulars">
+            <div class="quick-icon" aria-hidden="true">📅</div>
+            <h3>Examinations</h3>
+            <p>Time tables, fee notices and results</p>
+          </a>
+          <a class="card quick-card" href="#circulars">
+            <div class="quick-icon" aria-hidden="true">🎓</div>
+            <h3>Scholarships</h3>
+            <p>Government scholarship updates</p>
+          </a>
+          <a class="card quick-card" href="gallery.html">
+            <div class="quick-icon" aria-hidden="true">📷</div>
+            <h3>Gallery</h3>
+            <p>Campus life and events</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- All circulars -->
+    <section class="section" id="circulars">
+      <div class="container">
+        <h2 class="section-title">All Circulars &amp; Notices</h2>
+        <div class="table-wrap">
+          <table class="data">
+            <thead>
+              <tr><th style="width:60px">S.No</th><th style="width:140px">Date</th><th>Subject</th></tr>
+            </thead>
+            <tbody id="circulars-table"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER (same on every page) ============ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Government Degree College for Women</h3>
+        <p>Bapatla, Bapatla District,<br>Andhra Pradesh, India<!-- TODO: full address with PIN --></p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li>Phone: <!-- TODO -->To be updated</li>
+          <li>Email: <!-- TODO -->To be updated</li>
+          <li><a href="https://maps.google.com/maps?sca_esv=f26905183a218c10&amp;udm&amp;fvr=1&amp;pvq=Cg0vZy8xMWdqd19tem5qIiQKHndvbWVucyBqdW5pb3IgZGVncmVlICAgY29sbGVnZRACGAOJAT4sVMPAkPo9&amp;lqi=CiZiYXBhdGxhIHdvbWVucyBqdW5pb3IgZGVncmVlDQogY29sbGVnZUiQ9ee_w66AgAhaNhABEAIQAxAEGAAYARgDGAQiJGJhcGF0bGEgd29tZW5zIGp1bmlvciBkZWdyZWUgY29sbGVnZZIBDndvbWVuc19jb2xsZWdl&amp;vet=10CAAQoqAOahcKEwjw14PVpJiYAxUAAAAAHQAAAAAQGw..i&amp;cs=0&amp;um=1&amp;ie=UTF-8&amp;fb=1&amp;gl=in&amp;sa=X&amp;ftid=0x3a4a3ff126b1dbd1:0x3dfa90c0c3542c3e" target="_blank" rel="noopener">View on Google Maps</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span id="year">2026</span> Government Degree College for Women, Bapatla. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="data/circulars.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
